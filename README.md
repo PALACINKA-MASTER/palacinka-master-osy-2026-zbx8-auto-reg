@@ -112,12 +112,19 @@ Očekávaný výsledek lokálního testu:
 ```text
 agent.ping [s|1]
 ```
+## 7. Zabbix server
 
-## 7. Screenshoty
+Zabbix Agent 2 je nakonfigurován pro komunikaci se školním serverem:
+
+`enceladus.pfsense.cz`
+
+Cílem je automatická registrace virtuálního serveru prostřednictvím nastavených metadat `SPOS` a následné monitorování jeho stavu a systémových údajů.
+
+## 8. Screenshoty
 
 Ve složce `Images/` jsou uloženy screenshoty dokumentující instalaci, konfiguraci a ověření funkčnosti projektu.
 
-## 8. Závěr
+## 9. Závěr
 
 Projekt automatizuje vytvoření Debian 13 serveru a instalaci i konfiguraci Zabbix Agent 2 ve verzi 8.0 LTS.
 
